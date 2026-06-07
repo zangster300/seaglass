@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --color-base: seashell;
+  --color-base-content: seagreen;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-base: seagreen;
+    --color-base-content: seashell;
+  }
+}
+
+html {
+  background-color: var(--color-base);
+  color: var(--color-base-content);
+  display: grid;
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  display: grid;
+  font-size: 2rem;
+  height: 100%;
+  padding: 2rem;
+  place-content: center;
+  text-align: center;
+  width: 100%;
+}

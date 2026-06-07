@@ -1,0 +1,17 @@
+*
+
+!*.go
+!.gitignore
+!go.mod
+!go.sum
+
+!web/resources/**/*.html
+!web/resources/**/*.css
+!web/resources/**/*.js
+!web/resources/**/*.ts
+!web/resources/**/*.json
+!web/tsconfig.json
+
+!*.md
+
+!*/
